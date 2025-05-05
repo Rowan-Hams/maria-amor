@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url('../fontes/HopeCity.otf') format('opentype');
+}
+@font-face {
+    font-family: 'font-texto01' format('opentype');
+    src: url('../fontes/Curry\ Ramen.otf');
+}
+@font-face {
+    font-family: 'font-texto02' format('opentype');
+    src: url('../fontes/Morning\ Routine.otf');
+}
+@font-face {
+    font-family: 'font-texto03' format('opentype');
+    src: url('../fontes/CursiveSerif-Bold.ttf');
+}
+
+
 :root {
     --cor01: #5076E6;
     --cor02: #3C57AA;
@@ -7,10 +25,90 @@
     --cor04: #1D2C55;
     --cor05: #090F1C;
 
+    --fonte-titulo: 'fonte-titulo', sans-serif;
+    --fonte-texto01: 'font-texto01', sans-serif;
+    --fonte-texto02: 'font-texto02', sans-serif;
+    --fonte-texto03: 'font-texto03', sans-serif;
 }
 
 *{
     margin: 0px;
     padding: 0px;
 }
+
+header{
+    padding: 20px 0px 20px 0px;
+    background-image: linear-gradient(to right, var(--cor05), var(--cor03));
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 100;
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+header > p {
+    font-family: var(--fonte-texto02);
+    font-size: 1.2em;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    transition-duration: 0.5s;
+}
+
+header > p > a:hover{
+    background-color: var(--cor02);
+    padding: 5px;
+    border-radius: 1px 10px;
+}
+
+nav{
+    background-image: linear-gradient(to right, var(--cor05), var(--cor03));
+    padding: 6px;
+
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor02);
+    padding: 5px;
+    border-radius: 1px 10px;
+}
+
+main {
+    font-size: 1.2em;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 900px;
+    min-width: 300px;
+    font-family: var(--fonte-texto03);
+}
+
+main > h1 {
+    padding: 20px;
+    font-family: ;
+}
+
+main > p {
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
 
