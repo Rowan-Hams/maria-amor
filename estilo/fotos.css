@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'namorados';
+    src: url('../fontes/MorningRoutine.otf') format('opentype');
+}
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url('../fontes/HopeCity.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor01: #5076E6;
+    --cor02: #3C57AA;
+    --cor03: #273A70;
+    --cor04: #1D2C55;
+    --cor05: #090F1C;
+
+    --fonte-titulo: 'fonte-titulo', sans-serif;
+    --fonte-texto: 'namorados', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;}
+
+    header {
+        background-image: linear-gradient(to right, var(--cor05)23%, var(--cor01));
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+        height: 130px;
+        padding: 30px;
+        text-align: center;
+        font-family: var(--fonte-titulo);
+    }
+
+    header > h1{
+        font-size: 3em;
+    }
+
+    .conteiner#foto01 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .conteiner#foto02 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1em;
+    }
+
+main{
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.66);
+    background-image: linear-gradient(to right, var(--cor05), var(--cor01));
+    color: white;
+    font-family: var(--fonte-texto);
+    margin: auto;
+    padding: 10px;
+    font-size: 2em;
+    max-width: 1100px;
+}
+
+main > img {
+    padding: 10px;
+}
+
+main > p {
+    padding: 10px;
+}
+
+
