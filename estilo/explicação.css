@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'namorados';
+    src: url('../fontes/MorningRoutine.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Best-part';
+    src: url('../fontes/HopeCity.otf') format('opentype');
+    font-weight: normal;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #5076E6;
+    --cor02: #3C57AA;
+    --cor03: #273A70;
+    --cor04: #1D2C55;
+    --cor05: #090F1C;
+
+    --fonte-titulo: 'fonte-titulo', sans-serif;
+    --fonte-texto: 'namorados', sans-serif;
+}
+
+header {
+    /*colocar a foto da maria de pijama com efeito parallax no cabeçalho todo*/
+}
+
+main {
+    font-family: var(--fonte-texto);
+    background-color: #090F1C;
+    margin: auto;
+    width: 800px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+}
+
+picture {
+    background-size: cover;
+    text-align: start;
+}
+
+#meio {
+    
+    width: 100%;
+    color: white;
+     font-size: 2em;
+}
