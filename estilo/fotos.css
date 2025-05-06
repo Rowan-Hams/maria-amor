@@ -58,19 +58,32 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        list-style-position: inside;
     }
 
-    .conteiner01 > img {
-        max-width: 400px;
-        max-height: 600px;
-        width: 100%;
-    }
 
 
     .paragrafo01 {
+        max-width: 300px;
         padding-left: 10px;
         padding-right: 10px;
-        max-width: 100%;    
+        width: 100%;    
+    }
+
+    .conteiner02{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .paragrafo02 {
+        max-width: 300px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        color: white;
+        width: 100%;
     }
 
 
