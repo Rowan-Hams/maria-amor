@@ -120,7 +120,7 @@ main > p#imagem {
     background-size: cover;
     position: relative;
     color: white;
-    width: 100%;
+    max-width: 100%;
 }
 
 
