@@ -5,7 +5,7 @@
     src: url('../fontes/MorningRoutine.otf') format('opentype');
 }
 @font-face {
-    font-family: 'fonte-titulo';
+    font-family: 'Best-part';
     src: url('../fontes/HopeCity.otf') format('opentype');
     font-weight: normal;
 }
@@ -17,7 +17,7 @@
     --cor04: #1D2C55;
     --cor05: #090F1C;
 
-    --fonte-titulo: 'fonte-titulo', sans-serif;
+    --fonte-titulo: 'Best-part', sans-serif;
     --fonte-texto: 'namorados', sans-serif;
 }
 
