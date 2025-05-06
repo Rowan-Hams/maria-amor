@@ -5,17 +5,10 @@
     src: url('../fontes/HopeCity.otf') format('opentype');
 }
 @font-face {
-    font-family: 'font-texto01' format('opentype');
-    src: url('../fontes/Curry\ Ramen.otf');
+    font-family: 'namorados' format('opentype');
+    src: url('../fontes/Valentine-Day-PERSONAL-USE-ONLY!.ttf');
 }
-@font-face {
-    font-family: 'font-texto02' format('opentype');
-    src: url('../fontes/Morning\ Routine.otf');
-}
-@font-face {
-    font-family: 'font-texto03' format('opentype');
-    src: url('../fontes/CursiveSerif-Bold.ttf');
-}
+
 
 
 :root {
@@ -26,9 +19,7 @@
     --cor05: #090F1C;
 
     --fonte-titulo: 'fonte-titulo', sans-serif;
-    --fonte-texto01: 'font-texto01', sans-serif;
-    --fonte-texto02: 'font-texto02', sans-serif;
-    --fonte-texto03: 'font-texto03', sans-serif;
+    --fonte-h1: 'namorados', arial;
 }
 
 *{
@@ -52,7 +43,7 @@ header > h1 {
 }
 
 header > p {
-    font-family: var(--fonte-texto02);
+    font-family: var(--fonte-texto01);
     font-size: 1.2em;
 }
 
@@ -98,12 +89,14 @@ main {
     padding-right: 20px;
     max-width: 900px;
     min-width: 300px;
-    font-family: var(--fonte-texto03);
 }
 
 main > h1 {
     padding: 20px;
-    font-family: ;
+    font-family: var();
+    font-size: 2.5em;
+    color: var(--cor02);
+    text-shadow: 1px 1px 0px black;
 }
 
 main > p {
