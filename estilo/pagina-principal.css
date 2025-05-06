@@ -114,6 +114,7 @@ main > p#imagem {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagens/rio.jpg');
     background-position: center center;
     color: white;
+    width: 100%;
 }
 
 
