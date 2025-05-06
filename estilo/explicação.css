@@ -36,22 +36,27 @@ main {
     width: 800px;
 }
 
+main h1 {
+    color: white;
+}
+
 .conteiner {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    text-align: start;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 300px;
+
 }
 
-picture {
-    background-size: cover;
-    text-align: start;
+picture > source {
+   padding-left: 10px;
 }
 
 #meio {
-    
+    padding-left: 10px;
+    text-align: justify;
     width: 100%;
     color: white;
-     font-size: 2em;
+    font-size: 1.3em;
 }
