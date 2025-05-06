@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'fonte-titulo';
-    src: url('../fontes/HopeCity.otf') format('opentype');
+    font-family: 'namorados';
+    src: url('../fontes/MorningRoutine.otf') format('opentype');
 }
 @font-face {
-    font-family: 'namorados' format('opentype');
-    src: url('../fontes/Valentine-Day-PERSONAL-USE-ONLY!.ttf');
+    font-family: 'fonte-titulo';
+    src: url('../fontes/HopeCity.otf') format('opentype');
+    font-weight: normal;
 }
+
+
 
 
 
@@ -19,7 +22,7 @@
     --cor05: #090F1C;
 
     --fonte-titulo: 'fonte-titulo', sans-serif;
-    --fonte-h1: 'namorados', arial;
+    --fonte-texto: 'namorados', sans-serif;
 }
 
 *{
@@ -43,8 +46,8 @@ header > h1 {
 }
 
 header > p {
-    font-family: var(--fonte-texto01);
-    font-size: 1.2em;
+    font-family: var(--fonte-texto);
+    font-size: 1.8em;
 }
 
 header > p > a {
@@ -83,9 +86,9 @@ nav > a:hover {
 }
 
 main {
-    font-size: 1.2em;
+    font-family: var(--fonte-texto);
+    font-size: 2em;
     margin: auto;
-    padding-left: 20px;
     padding-right: 20px;
     max-width: 900px;
     min-width: 300px;
@@ -93,7 +96,6 @@ main {
 
 main > h1 {
     padding: 20px;
-    font-family: var();
     font-size: 2.5em;
     color: var(--cor02);
     text-shadow: 1px 1px 0px black;
@@ -103,5 +105,14 @@ main > p {
     padding-bottom: 10px;
     text-align: justify;
 }
+
+main > p#imagem {
+    background-attachment: fixed;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagens/rio.jpg');
+    background-position: center center;
+    color: white;
+}
+
 
 
