@@ -115,8 +115,8 @@ main > p {
 main > p#imagem {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagens/rio.jpg');
-    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagens/rio-retrato.png');
+    background-position: center;
     background-size: cover;
     position: relative;
     color: white;
