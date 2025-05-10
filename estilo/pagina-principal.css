@@ -118,9 +118,7 @@ main > p#imagem {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagens/rio-retrato.png');
     background-position: center;
     background-size: cover;
-    position: relative;
     color: white;
-    max-width: 100%;
 }
 
 
